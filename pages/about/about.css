@@ -1,0 +1,84 @@
+.banner {
+    background-image: url('https://materialkitchen.com/cdn/shop/files/TabletopCollection-1.jpg?v=1632869312');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    padding: 5vh 5vw;
+    display: flex;
+    align-items: center;
+}
+
+.bannertxt {
+    color: white;
+    font-size: 76px;
+}
+
+.columns {
+    padding: 2vh 10vw;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.coltxt {
+    width: 50%;
+}
+
+.colimg {
+    width: 50%;
+    border-radius: 50px;
+}
+
+.colh1 {
+    font-size: 50px;
+}
+
+.colp {
+    font-size: 35px;
+}
+
+.otherh {
+    font-size: 30px;
+}
+
+.othercols {
+    color: white;
+    background-color: #1d322d;
+}
+
+.otherul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.otherdiv {
+    color: white;
+    background-color: #1d322d;
+    text-align: center;
+}
+
+.btn{
+    color: white;
+    background-color: #1d322d;
+    padding: 2vh;
+    border: 1px white solid;
+    height: fit-content;
+}
+
+@media screen and (max-width: 991.98px) {
+    .columns {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .coltxt {
+        width: 100%;
+    }
+
+    .colimg {
+        width: 100%;
+    }
+}

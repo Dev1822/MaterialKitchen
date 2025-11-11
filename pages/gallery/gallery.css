@@ -1,0 +1,64 @@
+.banner {
+    background-image: url('https://materialkitchen.com/cdn/shop/files/camberlandhouse.png?v=1633043347');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+}
+
+.top {
+    padding: 2vh 10vw;
+    display: flex;
+    align-items: center;
+}
+
+.topheading {
+    width: 30%;
+}
+
+.main {
+    display: flex;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh;
+    border: 1px #a4aba1 solid;
+}
+
+.sort {
+    width: 80%;
+    border: 1px #a4aba1 solid;
+}
+
+.gallery {
+    padding: 2vh 10vw;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+}
+
+.image {
+    width: 48%;
+}
+
+@media screen and (max-width: 991.98px) {
+    .top {
+        flex-direction: column;
+    }
+
+    .topheading {
+        width: 100%;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    .sort {
+        width: 100%;
+    }
+}

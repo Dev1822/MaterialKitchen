@@ -1,0 +1,188 @@
+.banner {
+    background-image: url('https://materialkitchen.com/cdn/shop/files/3_be387839-c47d-4a7c-9222-200b3836281a.png?v=1762191016');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+}
+
+.button {
+    min-height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+button {
+    border: none;
+    background-color: #1d322d;
+    color: white;
+    padding: 2vh 4vw;
+    height: fit-content;
+}
+
+.smartbanner {
+    display: flex;
+}
+
+.smartimg {
+    width: 30%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.heading {
+    font-size: 7.5rem;
+}
+
+.products {
+    display: flex;
+    gap: 50px;
+    padding: 0 50px;
+    overflow-x: auto;
+}
+
+.productimg {
+    width: 100%;
+    background-color: #f4f2e3;
+}
+
+.product {
+    min-width: 450px;
+}
+
+.productname {
+    text-align: center;
+    width: 100%;
+}
+
+.productprice {
+    color: #964726;
+    text-align: center;
+    width: 100%;
+}
+
+.cancel {
+    color: #9a9a9a;
+    text-decoration: line-through;
+}
+
+.add {
+    width: 100%;
+}
+
+.holiday {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+}
+
+.columns {
+    display: flex;
+    gap: 50px;
+}
+
+.colimg {
+    width: 500px;
+}
+
+.new {
+    background-color: #f4f2e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1vh 20vw;
+}
+
+.newh {
+    text-align: center;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews {
+    display: flex;
+    gap: 50px;
+    padding: 0 50px;
+    overflow-x: auto;
+}
+
+.review {
+    display: flex;
+    min-width: 400px;
+    background-color: #896d61;
+    color: white;
+}
+
+.reviewtxt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vh;
+}
+
+.reviewimg {
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 991.98px) {
+    .smartbanner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .smartimg {
+        width: 100%;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 3.5rem;
+    }
+
+    .products {
+        padding: 1vh;
+    }
+
+    .columns {
+        flex-direction: column;
+    }
+
+    .colimg {
+        width: 250px;
+    }
+
+    .new {
+        padding: 1vh;
+    }
+
+    .reviews {
+        padding: 1vh;
+    }
+
+    .img {
+        width: 200px;
+    }
+}
